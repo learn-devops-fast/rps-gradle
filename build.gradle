@@ -5,7 +5,10 @@
 plugins {
     id 'java'
     id 'maven-publish'
+	id 'application'
 }
+
+mainClassName = "com.mcnz.rps.DesktopGame"
 
 repositories {
     mavenLocal()
